@@ -1,0 +1,29 @@
+{
+  "name": "sunwin-tx-collector",
+  "version": "1.0.0",
+  "description": "SUNWIN TX Collector voi LogicPen V4 - Thu thap du lieu va du doan ket qua Tai/Xiu",
+  "main": "sunthh.js",
+  "scripts": {
+    "start": "node sunthh.js",
+    "dev": "nodemon sunthh.js"
+  },
+  "keywords": [
+    "sunwin",
+    "tx",
+    "tai-xiu",
+    "prediction",
+    "collector",
+    "logicpen"
+  ],
+  "author": "thh",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
